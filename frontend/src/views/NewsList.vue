@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import Actualite from '../components/Actualite.vue';
 
-let actualitésLu = ref([]); // Déclarer comme réactif
+let actualitésLu = ref([]);
 let actualitésNonLu = ref([]);
 
 fetch("http://localhost:3000/news")
